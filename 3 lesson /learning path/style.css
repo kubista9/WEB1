@@ -1,0 +1,50 @@
+.wrapper {
+
+}
+
+img {
+    border: 1px solid black ;
+    height: 200px;
+}
+
+.cheetah {
+ position: fixed;
+ top: 50px;
+ left: 50px;
+ z-index: 1;
+}
+
+.hippopotamus {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.lion {
+    position: fixed;
+    top: 150px;
+    left: 130px;
+    z-index: 3;
+}
+
+.ostrich {
+    position: fixed;
+    top: 180px;
+    left: 160px;
+    z-index: 4;
+}
+
+.rhinoceros {
+    position: fixed;
+    top: 250px;
+    left: 160px;
+    z-index: 5;
+}
+
+.zebra {
+    position: fixed;
+    top: 290px;
+    left:200px;
+    z-index: 6;
+}

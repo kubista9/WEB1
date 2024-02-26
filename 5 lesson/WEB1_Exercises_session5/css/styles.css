@@ -1,0 +1,77 @@
+.animal_main {
+    border: 2px solid black;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+#yellow_box {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#red_box {
+    width: 400px;
+    height: 200px;
+    background-color: red;    
+}
+
+#blue_box {
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+}
+
+/*Jakub*/
+#yellow_box {
+width: 15vw;
+height: 15vh;
+}
+
+#nicki {
+    max-width: 75%;
+}
+
+div#blue_box {
+    margin: auto;
+    position: relative;
+    top: 40%;
+
+}
+
+/*media querries*/
+
+/*red box*/
+@media only screen and (max-width: 400px) {
+    #red_box {
+        display: none;
+    }
+}
+
+/*phones and down */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* portrait tablets and large phones */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* landscape tablets */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* laptops/desktops */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* large laptops and desktops */
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 23%;
+    }
+    
+}

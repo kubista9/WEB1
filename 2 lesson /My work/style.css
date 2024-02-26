@@ -1,0 +1,103 @@
+/*general*/
+
+body {
+    background: url('/images/pizza-white-wooden-table.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+/*header*/
+
+ul, ol {
+    list-style-type: none;
+}
+
+ul.links-navbar > li {
+    float: left;
+    padding: 10px 18px;
+}
+
+ul.links-navbar > li a {
+    color: rgb(224, 212, 212);
+}
+
+ul.links-navbar > li a:hover {
+    color: rgb(208, 137, 6);
+}
+
+ul.links-navbar > li a.current {
+    color: rgb(148, 96, 0);
+}
+
+/*main*/
+
+section.intro, section.greeting, section.special-offer, section.opening-hours {
+    width: 100%;
+    height: 40rem;
+}
+
+div.intro-wrappper, div.greeting-wrapper, div.special-offer-wrapper, div.opening-hours-wrapper {
+    padding: 6em 5em;
+    }
+
+section.greeting {
+    background: url('/images/responsible-handsome-male-driver-scooter-with-red-helmet-delivering-pizza.jpeg') no-repeat;
+    background-attachment: cover;
+    background-size: cover;
+}
+
+section.greeting h2, p {
+    color: #C3010F;
+}
+
+.action-btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    color:black ;
+}
+
+.action-btn:first-of-type {
+    padding: 15px 35px;
+    font-size: 20px;
+    color:#EBE2C7;
+    background: #6f822b;
+}
+
+.action-btn:last-child {
+    padding: 15px 35px;
+    font-size: 20px;
+    color:black;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+.intro-container h3, .special-offer-container {
+    margin-bottom: 50px;
+}
+
+/*footer*/
