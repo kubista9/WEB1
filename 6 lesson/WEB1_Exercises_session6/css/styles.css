@@ -1,0 +1,5 @@
+/* This selector targets all class names containing col- */
+[class*= "col-"] {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
