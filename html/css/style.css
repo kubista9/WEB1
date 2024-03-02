@@ -1,0 +1,128 @@
+/*Responsivity*/
+img {
+    width: 100%;
+}
+
+body {
+  font-family: serif;
+}
+
+h1 {
+  font-family:sans-serif;
+}
+  /*Header*/
+
+/*p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}*/
+
+/*p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}*/
+
+/* p {
+ h1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto; this is default s
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
+}
+}*/
+
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/*
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+*/
+
+@media only screen and (max-width: 600px) {
+  a {
+    background-color: lightblue;
+  }
+}
+
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
