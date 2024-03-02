@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap - Jakub</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+    <div class="container">
+        <div class="row d-flex">
+            <a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="Bootstrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block my-1" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+              </a>
+
+            <div class="">
+
+                <div class="navbar-nav-scroll">
+                    <ul class="navbar-nav bd-navbar-nav flex-row">
+                        <li class="nav-item"><a class="nav-link" href="#">Layout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Layout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Layout</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Breakpoints</h2>
+        </div>
+    </div>
+
+    <div class="container text-left">
+        <div class="row">
+            <div class="col">
+                <table>
+                    <tr>
+                        <th>Breakpoint</th>
+                        <th>Class infix</th>
+                        <th>Dimensions</th>
+                    </tr>
+                    <tr>
+                        <td>Extra small</td>
+                        <td>none</td>
+                        <td><576px</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Small</td>
+                        <td>sm</td>
+                        <td>≥576px</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>md</td>
+                        <td>≥768px</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>lg</td>
+                        <td>≥992px</td>
+                    </tr>
+                    <tr>
+                        <td>Extra large</td>
+                        <td>xl</td>
+                        <td>≥1200px</td>
+                    </tr>
+                    <tr>
+                        <td>Extra extra large</td>
+                        <td>xxl</td>
+                        <td>≥1400px
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Containers</h2>
+        </div>
+    </div>
+
+    <div class="container text-left">
+        <div class="row">
+            <div class="col">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Extra small <576px</th>
+                        <th>Small ≥576px</th>
+                        <th>Medium≥768px</th>
+                        <th>Large ≥992px</th>
+                        <th>X-Large ≥1200px</th>
+                    </tr>
+                    <tr>
+                        <td>.container</td>
+                        <td>100%</td>
+                        <td>540px</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                    </tr>
+                    <tr>
+                        <td>.container-sm</td>
+                        <td>100%</td>
+                        <td>540px</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                    </tr>
+                    <tr>
+                        <td>.container-md</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                    </tr>
+                    <tr>
+                        <td>.container-lg</td>
+                        <td>100%%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                    </tr>
+                    <tr>
+                        <td>.container-xl</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>1140px</td>
+                    </tr>
+                    <tr>
+                        <td>.container-xxl</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>.container-fluid</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                        <td>100%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Grid</h2>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row bg">
+          <div class="col bg">
+            Column
+          </div>
+          <div class="col bg">
+            Column
+          </div>
+          <div class="col bg">
+            Column
+          </div>
+        </div>
+      </div>
+
+<div class="container text-center">
+
+  <div class="heading-wrapper">
+        <div class="heading-container">
+            <h3>Align items start</h3>
+        </div>
+    </div>
+
+    <div class="row align-items-start bg">
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+    </div>
+
+    <div class="heading-wrapper">
+        <div class="heading-container">
+            <h3>Align items center</h3>
+        </div>
+    </div>
+
+    <div class="row align-items-center bg">
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+    </div>
+
+    <div class="heading-wrapper">
+        <div class="heading-container">
+            <h3>Align items end</h3>
+        </div>
+    </div>
+
+    <div class="row align-items-end bg">
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+      <div class="col bg">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
+  <div class="heading-wrapper">
+        <div class="heading-container">
+            <h3>Row bg</h3>
+        </div>
+    </div>
+
+  <div class="container text-center">
+    <div class="row bg">
+      <div class="col align-self-start bg">
+        col align-self-start bg
+      </div>
+      <div class="col align-self-center bg">
+        col align-self-center bg
+      </div>
+      <div class="col align-self-end bg">
+        col align-self-end bg
+      </div>
+    </div>
+  </div>
+
+  <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Justify content</h2>
+        </div>
+    </div>
+
+  <div class="container text-center bg">
+    <div class="row justify-content-start mt-25">
+      <div class="col-4 bg">
+        justify-content-start
+      </div>
+      <div class="col-4 bg">
+        justify-content-start
+      </div>
+    </div>
+    <div class="row justify-content-center pt-">
+      <div class="col-4 bg">
+        justify-content-center 
+      </div>
+      <div class="col-4 bg">
+        justify-content-center 
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-4 bg">
+        justify-content-end
+      </div>
+      <div class="col-4 bg">
+        justify-content-end
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-4 bg">
+        justify-content-around
+      </div>
+      <div class="col-4 bg">
+        justify-content-around
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-4 bg">
+        justify-content-between
+      </div>
+      <div class="col-4 bg">
+        justify-content-between
+      </div>
+    </div>
+    <div class="row justify-content-evenly">
+      <div class="col-4 bg">
+        justify-content-even
+      </div>
+      <div class="col-4 bg">
+        justify-content-even
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-9 bg">.col-9</div>
+      <div class="col-4 bg">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+      <div class="col-6 bg">.col-6<br>Subsequent columns continue along the new line.</div>
+    </div>
+  </div>
+
+  <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Orders</h2>
+        </div>
+    </div>
+
+  <div class="container text-center">
+    <div class="row bg">
+      <div class="col bg">
+        First in DOM, no order applied
+      </div>
+      <div class="col bg order-5">
+        Second in DOM, with a larger order
+      </div>
+      <div class="col bg order-1">
+        Third in DOM, with an order of 1
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row bg">
+      <div class="col bg order-last">
+        First in DOM, ordered last
+      </div>
+      <div class="col bg">
+        Second in DOM, unordered
+      </div>
+      <div class="col bg order-first">
+        Third in DOM, ordered first
+      </div>
+    </div>
+  </div>
+
+  <div class="heading-wrapper">
+        <div class="heading-container">
+            <h2>Custom padding </h2>
+        </div>
+    </div>
+
+  <div class="container text-center">
+    <div class="row g-2">
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="heading-wrapper">
+    <div class="heading-container">
+        <h2>Background</h2>
+    </div>
+</div>
+
+  <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+<div class="bg-success p-2 text-white">This is default success background</div>
+<div class="bg-success p-2" style="--bs-bg-opacity: .5;">This is 50% opacity success background</div>
+
+  <div class="heading-wrapper">
+    <div class="heading-container">
+        <h2>Borders</h2>
+    </div>
+</div>
+
+<html>
+    <span class="border bg"></span>
+    <span class="border-top bg"></span>
+    <span class="border-end"></span>
+    <span class="border-bottom"></span>
+    <span class="border-start"></span>
+    <span class="border border-primary"></span>
+    <span class="border border-secondary"></span>
+    <span class="border border-success"></span>
+    <span class="border border-danger"></span>
+</html>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Opacity</h2>
+  </div>
+</div>
+<div class="border border-success p-2 mb-2">This is default success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-75">This is 75% opacity success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-50">This is 50% opacity success border</div>
+<div class="border border-success p-2 mb-2 border-opacity-25">This is 25% opacity success border</div>
+<div class="border border-success p-2 border-opacity-10">This is 10% opacity success border</div>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Width</h2>
+  </div>
+</div>
+
+<span class="border border-1"></span>
+<span class="border border-2"></span>
+<span class="border border-3"></span>
+<span class="border border-4"></span>
+<span class="border border-5"></span>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Border radius</h2>
+  </div>
+</div>
+
+<img src="..." class="rounded" alt="...">
+<img src="..." class="rounded-top" alt="...">
+<img src="..." class="rounded-end" alt="...">
+<img src="..." class="rounded-bottom" alt="...">
+<img src="..." class="rounded-start" alt="...">
+<img src="..." class="rounded-circle" alt="...">
+<img src="..." class="rounded-pill" alt="...">
+
+<img src="..." class="rounded-0" alt="...">
+<img src="..." class="rounded-1" alt="...">
+<img src="..." class="rounded-2" alt="...">
+<img src="..." class="rounded-3" alt="...">
+<img src="..." class="rounded-4" alt="...">
+<img src="..." class="rounded-5" alt="...">
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Colors</h2>
+  </div>
+</div>
+
+<p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning bg-dark">.text-warning</p>
+<p class="text-info bg-dark">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-body">.text-body</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+<p class="text-black-50">.text-black-50</p>
+<p class="text-white-50 bg-dark">.text-white-50</p>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Display: flex</h2>
+  </div>
+</div>
+
+<div class="d-flex flex-row mb-3 bg">
+  <div class="p-2 bg">Flex item 1</div>
+  <div class="p-2 bg">Flex item 2</div>
+  <div class="p-2 bg">Flex item 3</div>
+</div>
+<div class="d-flex flex-row-reverse bg">
+  <div class="p-2 bg">Flex item 1</div>
+  <div class="p-2 bg">Flex item 2</div>
+  <div class="p-2 bg">Flex item 3</div>
+</div>
+
+<div class="d-flex flex-column mb-3 bg">
+  <div class="p-2 bg">Flex item 1</div>
+  <div class="p-2 bg">Flex item 2</div>
+  <div class="p-2 bg">Flex item 3</div>
+</div>
+
+
+<div class="d-flex flex-column-reverse bg">
+  <div class="p-2 bg">Flex item 1</div>
+  <div class="p-2 bg">Flex item 2</div>
+  <div class="p-2 bg">Flex item 3</div>
+</div>
+
+<div class="d-flex justify-content-start bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex justify-content-end bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex justify-content-cente bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex justify-content-between bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex justify-content-around bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex justify-content-evenly bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+
+<div class="d-flex align-items-start bg">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex align-items-end bg1">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex align-items-center bg1">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex align-items-baseline bg1">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+<div class="d-flex align-items-stretch bg1">
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+  <div class="p-2 bg">Flex item</div>
+</div>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Positions</h2>
+  </div>
+</div>
+
+<div class="position-relative mb-5 bg">
+  <div class="position-absolute top-0 start-0"></div>
+  <div class="position-absolute top-0 end-0"></div>
+  <div class="position-absolute top-50 start-50"></div>
+  <div class="position-absolute bottom-50 end-50"></div>
+  <div class="position-absolute bottom-0 start-0"></div>
+  <div class="position-absolute bottom-0 end-0"></div>
+</div>
+
+<div class="position-relative mt-1 bg">
+  <div class="position-absolute top-0 start-0 translate-middle"></div>
+  <div class="position-absolute top-0 start-50 translate-middle"></div>
+  <div class="position-absolute top-0 start-100 translate-middle"></div>
+  <div class="position-absolute top-50 start-0 translate-middle"></div>
+  <div class="position-absolute top-50 start-50 translate-middle"></div>
+  <div class="position-absolute top-50 start-100 translate-middle"></div>
+  <div class="position-absolute top-100 start-0 translate-middle"></div>
+  <div class="position-absolute top-100 start-50 translate-middle"></div>
+  <div class="position-absolute top-100 start-100 translate-middle"></div>
+</div>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Shadows</h2>
+  </div>
+</div>
+
+<div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+<div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+
+<div class="heading-wrapper">
+  <div class="heading-container">
+      <h2>Sizing</h2>
+  </div>
+</div>
+
+<div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+<div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+<div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+<div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+<div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+
+<div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+  <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+  <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+  <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+  <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+  <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+</div>
+
+<div class="heading-wrapper mt-10">
+  <div class="heading-container">
+      <h2>Spacing</h2>
+  </div>
+</div>
+
+<p>Spacing utilities that apply to all breakpoints, from xs to xxl, have no breakpoint abbreviation in them. This is because those classes are applied from min-width: 0 and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.
+</p>
+
+<ul>
+  <li><code>m</code> - for classes that set <code>margin</code></li>
+  <li><code>p</code> - for classes that set <code>padding</code></li>
+</ul>
+
+<p>Where <em>sides</em> is one of:</p>
+<ul>
+  <li><code>t</code> - for classes that set <code>margin-top</code> or <code>padding-top</code></li>
+  <li><code>b</code> - for classes that set <code>margin-bottom</code> or <code>padding-bottom</code></li>
+  <li><code>s</code> - (start) for classes that set <code>margin-left</code> or <code>padding-left</code> in LTR, <code>margin-right</code> or <code>padding-right</code> in RTL</li>
+  <li><code>e</code> - (end) for classes that set <code>margin-right</code> or <code>padding-right</code> in LTR, <code>margin-left</code> or <code>padding-left</code> in RTL</li>
+  <li><code>x</code> - for classes that set both <code>*-left</code> and <code>*-right</code></li>
+  <li><code>y</code> - for classes that set both <code>*-top</code> and <code>*-bottom</code></li>
+  <li>blank - for classes that set a <code>margin</code> or <code>padding</code> on all 4 sides of the element</li>
+</ul>
+
+<p>Where <em>size</em> is one of:</p>
+
+<ul>
+  <li><code>0</code> - for classes that eliminate the <code>margin</code> or <code>padding</code> by setting it to <code>0</code></li>
+  <li><code>1</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * .25</code></li>
+  <li><code>2</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * .5</code></li>
+  <li><code>3</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer</code></li>
+  <li><code>4</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * 1.5</code></li>
+  <li><code>5</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * 3</code></li>
+  <li><code>auto</code> - for classes that set the <code>margin</code> to auto</li>
+</ul>
+
+<div class="heading-wrapper mt-10">
+  <div class="heading-container">
+      <h2>Text</h2>
+  </div>
+</div>
+
+<p class="text-start bg">Start aligned text on all viewport sizes.</p>
+<p class="text-center bg">Center aligned text on all viewport sizes.</p>
+<p class="text-end bg">End aligned text on all viewport sizes.</p>
+
+<div class="badge bg-primary text-wrap" style="width: 6rem;">
+  This text should wrap.
+</div>
+
+<div class="text-nowrap bg-light border" style="width: 8rem;">
+  This text should overflow the parent.
+</div>
+
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+
+<p class="fs-1">.fs-1 text</p>
+<p class="fs-2">.fs-2 text</p>
+<p class="fs-3">.fs-3 text</p>
+<p class="fs-4">.fs-4 text</p>
+<p class="fs-5">.fs-5 text</p>
+<p class="fs-6">.fs-6 text</p>
+
+<p class="fw-bold">Bold text.</p>
+<p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+<p class="fw-semibold">Semibold weight text.</p>
+<p class="fw-normal">Normal weight text.</p>
+<p class="fw-light">Light weight text.</p>
+<p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+<p class="fst-italic">Italic text.</p>
+<p class="fst-normal">Text with normal font style</p>
+
+<p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+<p class="lh-sm">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+<p class="lh-base">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+<p class="lh-lg">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+
+<p class="text-decoration-underline">This text has a line underneath it.</p>
+<p class="text-decoration-line-through">This text has a line going through it.</p>
+<a href="#" class="text-decoration-none">This link has its text decoration removed</a>
+
+<div class="heading-wrapper mt-10">
+  <div class="heading-container">
+      <h2>Vertical align</h2>
+  </div>
+</div>
+
+<div class="bg">
+  <span class="align-baseline">baseline</span>
+<span class="align-top">top</span>
+<span class="align-middle">middle</span>
+<span class="align-bottom">bottom</span>
+<span class="align-text-top">text-top</span>
+<span class="align-text-bottom">text-bottom</span>
+</div>
+
+<table style="height: 100px;" class="bg">
+  <tbody>
+    <tr>
+      <td class="align-baseline">baseline</td>
+      <td class="align-top">top</td>
+      <td class="align-middle">middle</td>
+      <td class="align-bottom">bottom</td>
+      <td class="align-text-top">text-top</td>
+      <td class="align-text-bottom">text-bottom</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+</body>
+</html>
